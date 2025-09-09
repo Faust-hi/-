@@ -1,1 +1,10 @@
+# include <iostream>
+# include <vector>
+using namespace std;
 
+int main() {
+    vector < string > fruits = {"apple", "banana"};
+fruits.push_back("cherry");
+fruits.pop_back();
+for (auto f: fruits) cout << f << " ";
+}

@@ -1,1 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
 
+int main() {
+    string s = "Hello" + string(" ") + "World";
+    cout << s << endl;  // Hello World
+
+    int length = s.length();
+    cout << "Длина: " << length << endl;
+
+    size_t index = s.find("World");
+    cout << "Индекс: " << index << endl;
+
+    }
+}

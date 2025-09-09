@@ -1,1 +1,10 @@
-
+public class StringExample {
+    public static void main(String[] args) {
+        String s = "Hello" + " " + "World";
+        System.out.println(s);
+        int length = s.length();
+        System.out.println("Длина: " + length);
+        int index = s.indexOf("World");
+        System.out.println("Индекс: " + index);
+    }
+}

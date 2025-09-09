@@ -1,1 +1,9 @@
+text = "programming"
+words = ["banana", "apple", "cherry", "Apple"]
 
+sorted_string = ''.join(sorted(text))
+print(sorted_string)
+words.sort()
+print(words)
+words.sort(key=str.lower)
+print(words)

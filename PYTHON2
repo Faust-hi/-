@@ -1,9 +1,6 @@
-text = "programming"
-words = ["banana", "apple", "cherry", "Apple"]
-
-sorted_string = ''.join(sorted(text))
-print(sorted_string)
-words.sort()
-print(words)
-words.sort(key=str.lower)
-print(words)
+s = "Hello" + " " + "World"
+length = len(s)
+index = s.find("World")
+print(s)
+print(f"Длина: {length}")
+print(f"Индекс: {index}")
